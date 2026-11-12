@@ -1,0 +1,238 @@
+{
+  "v": 2,
+  "id": "zc_mwdahsak_9u9b",
+  "sid": "s_mwdahsaj_5oi0",
+  "repo": "umerhammaz/khizar-bhai",
+  "ts": 1794472329883,
+  "sha": "188f48a8be4e26b468b3ac476967b6f05a94bf60",
+  "branch": "main",
+  "delivery": "direct",
+  "msgSubj": "feat(sync): Synchronized 28 file(s) across 1 prompt turn(s)",
+  "msgHash": "707ec85296940876",
+  "files": [
+    [
+      "index.html",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/tokens.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/base.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/layout.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/components.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/gate.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/hero.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/facts.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/timeline.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/quiz.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/awards.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/final.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/footer.css",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/utils.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/media.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/facts-data.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/timeline-data.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/quiz-data.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/awards-data.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/gate.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/facts.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/timeline.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/quiz.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/awards.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/final.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/components/easter-egg.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/main.js",
+      "a",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "README.md",
+      "m",
+      "ai",
+      1,
+      0
+    ]
+  ],
+  "sum": {
+    "files": 28,
+    "add": 27,
+    "mod": 1,
+    "del": 0,
+    "src": {
+      "ai": 28
+    }
+  },
+  "warn": {
+    "quarantine": 0,
+    "halluc": 0,
+    "secret": 0,
+    "runtime": 0,
+    "override": false
+  },
+  "safety": {
+    "canary": "8/8",
+    "vault": "persistent"
+  },
+  "base": {
+    "gen": 0,
+    "anc": "T",
+    "race": 0
+  },
+  "verify": 1,
+  "ms": 13394,
+  "hash": "dc0088a7e1afcd83"
+}
