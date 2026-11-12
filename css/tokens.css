@@ -1,0 +1,16 @@
+:root {
+  --bg: #0f1115;
+  --surface: #181b22;
+  --surface-alt: #222733;
+  --text: #f0f3f6;
+  --muted: #8b949e;
+  --border: #30363d;
+  --brand: #f59e0b;
+  --brand-hover: #d97706;
+  --ok: #10b981;
+  --bad: #ef4444;
+  --font-head: 'Space Grotesk', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --radius: 12px;
+  --max-w: 960px;
+}

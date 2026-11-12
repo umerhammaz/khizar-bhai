@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khizar Bhai</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections/gate.css">
+  <link rel="stylesheet" href="css/sections/hero.css">
+  <link rel="stylesheet" href="css/sections/facts.css">
+  <link rel="stylesheet" href="css/sections/timeline.css">
+  <link rel="stylesheet" href="css/sections/quiz.css">
+  <link rel="stylesheet" href="css/sections/awards.css">
+  <link rel="stylesheet" href="css/sections/final.css">
+  <link rel="stylesheet" href="css/sections/footer.css">
+  <style>
+    body:not(.unlocked) > :not(#gate) { display: none !important; }
+  </style>
+</head>
+<body>
+  <section id="gate" class="gate-wrap">
+    <div class="card gate-box">
+      <h2>Khizar Bhai Tribute</h2>
+      <p>Enter passkey to open</p>
+      <form id="gate-form">
+        <input id="gate-pass" class="field" type="password" placeholder="Passcode (hint: 786)" autocomplete="off">
+        <button type="submit" class="btn">Unlock</button>
+      </form>
+      <p id="gate-error" class="gate-err" hidden>Wrong passkey. Try again.</p>
+    </div>
+  </section>
+
+  <section id="hero" class="section-padding">
+    <div class="container hero-box">
+      <span class="badge">Legend</span>
+      <h1>Khizar Bhai</h1>
+      <p class="hero-sub">The one and only. Calm mind, big heart, real mentor.</p>
+    </div>
+  </section>
+
+  <section id="facts" class="section-padding">
+    <div class="container">
+      <h2>Fast Facts</h2>
+      <div id="facts-mount" class="grid facts-grid"></div>
+    </div>
+  </section>
+
+  <section id="timeline" class="section-padding">
+    <div class="container">
+      <h2>Memory Lane</h2>
+      <ul id="timeline-mount" class="timeline-list"></ul>
+    </div>
+  </section>
+
+  <section id="quiz" class="section-padding">
+    <div class="container">
+      <h2>How Well Do You Know Him?</h2>
+      <div id="quiz-mount"></div>
+    </div>
+  </section>
+
+  <section id="awards" class="section-padding">
+    <div class="container">
+      <h2>Badges Of Honor</h2>
+      <ul id="awards-mount" class="grid awards-grid"></ul>
+    </div>
+  </section>
+
+  <section id="final" class="section-padding">
+    <div class="container card final-card">
+      <h2>Respect & Love Always</h2>
+      <p>Thanks for being solid support, real guidance, and great company every day.</p>
+      <button id="final-toggle" class="btn">Open Vouchers</button>
+      <div id="final-box" class="final-box" hidden>
+        <p>1x Unlimited Chai Voucher</p>
+        <p>1x Late Night Talk Pass</p>
+        <p>1x Immunity From Arguments</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container footer-content">
+      <p>Made for Khizar Bhai <span id="secret-dot" class="dot">.</span></p>
+    </div>
+  </footer>
+
+  <template id="tpl-fact">
+    <div class="card fact-card">
+      <h3 class="fact-title"></h3>
+      <p class="fact-desc"></p>
+    </div>
+  </template>
+
+  <template id="tpl-memory">
+    <li class="card timeline-card">
+      <span class="badge timeline-date"></span>
+      <h3 class="timeline-title"></h3>
+      <p class="timeline-text"></p>
+      <img class="timeline-img" alt="Memory photo" loading="lazy">
+    </li>
+  </template>
+
+  <template id="tpl-quiz-question">
+    <div class="card quiz-card">
+      <h3 class="quiz-q"></h3>
+      <div class="quiz-opts"></div>
+      <p class="quiz-feedback" hidden></p>
+    </div>
+  </template>
+
+  <template id="tpl-award">
+    <li class="card award-card">
+      <div class="award-icon"></div>
+      <h3 class="award-name"></h3>
+      <p class="award-desc"></p>
+    </li>
+  </template>
+
+  <noscript>
+    <div class="card container" style="margin: 2rem auto; text-align: center;">
+      <h2>Khizar Bhai Tribute</h2>
+      <p>JavaScript is off. We still love you and appreciate everything you do!</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

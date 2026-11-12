@@ -1,0 +1,49 @@
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+}
+
+.btn {
+  background: var(--brand);
+  color: #000;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background: var(--brand-hover);
+}
+
+.badge {
+  background: var(--surface-alt);
+  color: var(--brand);
+  border: 1px solid var(--border);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  width: fit-content;
+}
+
+.field {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.field:focus {
+  border-color: var(--brand);
+  outline: none;
+}

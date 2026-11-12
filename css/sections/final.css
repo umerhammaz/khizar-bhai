@@ -1,0 +1,11 @@
+.final-card {
+  text-align: center;
+  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-alt) 100%);
+}
+
+.final-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px dashed var(--brand);
+  border-radius: var(--radius);
+}

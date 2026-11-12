@@ -1,0 +1,26 @@
+#gate {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.gate-box {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+#gate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gate-err {
+  color: var(--bad);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

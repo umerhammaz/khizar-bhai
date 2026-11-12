@@ -1,0 +1,13 @@
+.facts-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.fact-title {
+  color: var(--brand);
+  margin-bottom: 0.5rem;
+}
+
+.fact-desc {
+  margin: 0;
+  color: var(--muted);
+}

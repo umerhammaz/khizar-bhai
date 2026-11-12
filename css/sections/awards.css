@@ -1,0 +1,26 @@
+.awards-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.award-card {
+  text-align: center;
+}
+
+.award-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.award-name {
+  color: var(--brand);
+  margin-bottom: 0.25rem;
+}
+
+.award-desc {
+  color: var(--muted);
+  margin: 0;
+  font-size: 0.95rem;
+}
