@@ -1,0 +1,133 @@
+{
+  "v": 2,
+  "id": "zc_mwdaqjk3_iv58",
+  "sid": "s_mwdahsaj_5oi0",
+  "repo": "umerhammaz/khizar-bhai",
+  "ts": 1794472739485,
+  "sha": "8d9489c9693a2f460222f83a98a3b02947a523c7",
+  "branch": "main",
+  "delivery": "direct",
+  "msgSubj": "feat(sync): Synchronized 13 file(s) across 1 prompt turn(s)",
+  "msgHash": "a0b2842812f92cb6",
+  "files": [
+    [
+      "css/tokens.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/base.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/layout.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/components.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/gate.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/hero.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/facts.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/timeline.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/quiz.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/awards.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/final.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "css/sections/footer.css",
+      "m",
+      "ai",
+      1,
+      0
+    ],
+    [
+      "js/data/media.js",
+      "m",
+      "ai",
+      1,
+      0
+    ]
+  ],
+  "sum": {
+    "files": 13,
+    "add": 0,
+    "mod": 13,
+    "del": 0,
+    "src": {
+      "ai": 13
+    }
+  },
+  "warn": {
+    "quarantine": 0,
+    "halluc": 0,
+    "secret": 0,
+    "runtime": 0,
+    "override": false
+  },
+  "safety": {
+    "canary": "8/8",
+    "vault": "persistent"
+  },
+  "base": {
+    "gen": 1,
+    "anc": "T",
+    "race": 0
+  },
+  "verify": 1,
+  "ms": 8946,
+  "hash": "2e1ffbbe9ef7ba57"
+}
