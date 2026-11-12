@@ -2,12 +2,41 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.fact-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.fact-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--brand-gradient);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.fact-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 107, 0, 0.4);
+  box-shadow: 0 12px 28px rgba(255, 107, 0, 0.15);
+}
+
+.fact-card:hover::before {
+  opacity: 1;
+}
+
 .fact-title {
-  color: var(--brand);
-  margin-bottom: 0.5rem;
+  color: #ffaa5a;
+  font-size: 1.25rem;
+  margin-bottom: 0.6rem;
 }
 
 .fact-desc {
   margin: 0;
   color: var(--muted);
+  line-height: 1.5;
 }

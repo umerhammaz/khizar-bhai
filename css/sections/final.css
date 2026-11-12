@@ -1,11 +1,54 @@
 .final-card {
   text-align: center;
-  background: linear-gradient(180deg, var(--surface) 0%, var(--surface-alt) 100%);
+  background: linear-gradient(180deg, var(--surface) 0%, rgba(35, 20, 48, 0.75) 100%);
+  border: 1px solid rgba(255, 107, 0, 0.3);
+  box-shadow: var(--brand-glow);
+  padding: 3rem 2rem;
+}
+
+.final-card h2 {
+  font-size: 2.25rem;
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.final-card h2::after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.final-card p {
+  max-width: 580px;
+  margin: 0 auto 1.5rem;
+  color: var(--muted);
+  font-size: 1.15rem;
 }
 
 .final-box {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  border: 1px dashed var(--brand);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 2px dashed rgba(255, 107, 0, 0.45);
   border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  animation: glow-in 0.3s ease-out;
+}
+
+@keyframes glow-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.final-box p {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 107, 0, 0.08);
+  border-left: 3px solid var(--brand);
+  border-radius: 6px;
+  color: var(--text-bright);
+  font-weight: 600;
+  text-align: left;
 }

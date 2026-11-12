@@ -1,12 +1,23 @@
 #footer {
   border-top: 1px solid var(--border);
-  padding: 2rem 0;
+  padding: 3rem 0;
   text-align: center;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  position: relative;
 }
 
 .dot {
   cursor: pointer;
   user-select: none;
+  color: var(--brand);
+  font-weight: 900;
+  font-size: 1.3rem;
+  display: inline-block;
+  transition: transform 0.2s ease, text-shadow 0.2s ease;
+}
+
+.dot:hover {
+  transform: scale(1.6);
+  text-shadow: 0 0 12px var(--brand);
 }
